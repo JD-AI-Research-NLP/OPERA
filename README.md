@@ -1,1 +1,3 @@
-# OPERA
+This is code for the NAACL 2022 Paper "OPERA: Operation-Pivoted Discrete Reasoning over Text".
+
+Release soon....
