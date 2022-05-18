@@ -8,7 +8,12 @@ spacy==2.1.9<br>
 en_core_web_sm==2.1<br>
 
 ## Running
-
+Training
+```
+```
+Prediction
+```
+```
 
 
 ## Citation
