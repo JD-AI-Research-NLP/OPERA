@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 nohup python3 roberta_predict.py --eval_batch_size 64 --pretrain_model_name albert.xxlarge --stag dev --add_op_layer --chunking --checkpoint_path processed_data_albert.xxlarge/numnet_plus_678_LR_0.0001_BLR_3e-05_WD_5e-05_BWD_0.01_BS_128_gcn_False_albert.xxlarge_add_op_True_lamda_0.3

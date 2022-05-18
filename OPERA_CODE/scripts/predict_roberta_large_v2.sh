@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=2 python3 roberta_predict.py --eval_batch_size 100 --pretrain_model_name roberta.large --stag dev --add_op_layer  --checkpoint_path processed_data_roberta.large/numnet_plus_345_LR_0.0005_BLR_1.5e-05_WD_5e-05_BWD_0.01_BS_16_gcn_False_roberta.large_add_op_True/ --data_root ../OPERA_DATA/drop_dataset --chunking

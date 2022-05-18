@@ -1,0 +1,2 @@
+CUDA_VISIBLE_DEVICES=7 python3 train.py --batch_size 16 --max_epoch 15 --pretrain_model roberta.large --add_op_layer --gradient_accumulation_steps 2 --warmup_schedule warmup_cosine --SEED 345 --data_root_dir OPERA_DATA
+#UDA_VISIBLE_DEVICES=4,5 python3 train.py --batch_size 128 --max_epoch 15 --pretrain_model roberta.large --add_op_layer --gradient_accumulation_steps 8 --warmup_schedule warmup_cosine --SEED 345 --LR 1e-4 --BLR 3e-5
