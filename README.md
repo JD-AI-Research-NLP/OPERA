@@ -9,8 +9,8 @@ transformers==4.1<br>
 spacy==2.1.9<br>
 
 ## Running
-Preprocessing
 Download pretrain_model files and put them in the folder OPERA_DATA/drop_dataset.
+Preprocessing
 ```
 bash scripts/prepare_albert_v2_data.sh
 ```
