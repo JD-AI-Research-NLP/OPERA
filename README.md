@@ -9,7 +9,7 @@ transformers==4.1<br>
 spacy==2.1.9<br>
 
 ## Running
-Preprocess data
+Preprocessing
 ```
 bash scripts/prepare_albert_v2_data.sh
 ```
