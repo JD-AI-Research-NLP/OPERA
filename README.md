@@ -1,5 +1,6 @@
 This is code for the NAACL 2022 Paper "OPERA: Operation-Pivoted Discrete Reasoning over Text".
-We implement our model based on the code of NumNet and QDGAT
+
+We implement our model based on the code of NumNet and QDGAT.
 
 ## Environment
 torch==1.7.1<br>
