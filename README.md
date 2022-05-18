@@ -9,11 +9,17 @@ transformers==4.1<br>
 spacy==2.1.9<br>
 
 ## Running
+Preprocess data
+```
+bash scripts/prepare_albert_v2_data.sh
+```
 Training
 ```
+bash scripts/train_albert_xxlarge_v2.sh
 ```
 Prediction
 ```
+bash scripts/predict_albert_large_v2.sh
 ```
 
 
