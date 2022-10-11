@@ -1,2 +1,0 @@
-CUDA_VISIBLE_DEVICES=7 python3 roberta_predict.py --eval_batch_size 100 --pretrain_model_name electra.large --stag dev   --add_op_layer --checkpoint_path processed_data_electra.large/numnet_plus_345_LR_0.0005_BLR_1.5e-05_WD_5e-05_BWD_0.01_BS_16_gcn_False_electra.large_add_op_True_1
-CUDA_VISIBLE_DEVICES=7 python3 roberta_predict.py --eval_batch_size 100 --pretrain_model_name electra.large --stag test  --add_op_layer --checkpoint_path processed_data_electra.large/numnet_plus_345_LR_0.0005_BLR_1.5e-05_WD_5e-05_BWD_0.01_BS_16_gcn_False_electra.large_add_op_True_1
